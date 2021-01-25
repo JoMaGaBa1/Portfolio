@@ -1,0 +1,16 @@
+
+F
+java:S1948")Make "metodos" transient or serializable.(ù¶…ž8í‘ú®Ý.
+W	java:S110"<This class has 6 parents which is greater than 5 authorized.(êÊ¯g8±Š ÑÝ.
+u
+java:S3776Œ"RRefactor this method to reduce its Cognitive Complexity from 38 to the 15 allowed.(¼ Òþüÿÿÿÿ8±Š ÑÝ.
+R
+java:S1066š"/Merge this if statement with the enclosing one.(Ðã²ëúÿÿÿÿ8»àžà.
+i
+java:S1192…"FDefine a constant instead of duplicating this literal "Error" 4 times.(ÃŠßÞýÿÿÿÿ8ÛœžŸà.
+R
+java:S1066¨"/Merge this if statement with the enclosing one.(Ðã²ëúÿÿÿÿ8ëØàžà.
+S
+java:S1143‡"5Remove this return statement from this finally block.(ì”Å©8—óÃžà.
+J
+java:S1948"-Make "tablaModelo" transient or serializable.(¯ÿª‡8Ý³ÿ®Ý.

@@ -1,0 +1,8 @@
+
+Z	java:S106C"9Replace this use of System.out or System.err by a logger.(ˆ‘•®ıÿÿÿÿ8œÓÎïØ.
+…
+java:S1192*"cDefine a constant instead of duplicating this literal "Algo fallo con la base de datos..." 3 times.(ˆ‘•®ıÿÿÿÿ8œÓÎïØ.
+z
+java:S1450	"XRemove the "sentencia" field and declare it as a local variable in the relevant methods.(âÅ¬Šúÿÿÿÿ8‡ÔìîØ.
+Z	java:S106c"9Replace this use of System.out or System.err by a logger.(ˆ‘•®ıÿÿÿÿ8ñü°ïØ.
+Z	java:S106*"9Replace this use of System.out or System.err by a logger.(ˆ‘•®ıÿÿÿÿ8‡ÔìîØ.

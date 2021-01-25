@@ -1,0 +1,22 @@
+
+W
+java:S1143*"5Remove this return statement from this finally block.(£±ç„ùÿÿÿÿ8ì¼Ÿà.
+W
+java:S1143q"5Remove this return statement from this finally block.(Ú’ÚÂıÿÿÿÿ8½ÆÃ¬İ.
+X
+java:S1143Œ"5Remove this return statement from this finally block.(Ú’ÚÂıÿÿÿÿ8„ÆË¬İ.
+W
+java:S1143V"5Remove this return statement from this finally block.(Ú’ÚÂıÿÿÿÿ8æÃÍ¬İ.
+W
+java:S1143T"5Remove this return statement from this finally block.(ÈÚŞÇùÿÿÿÿ8„ÆË¬İ.
+X
+java:S1143Š"5Remove this return statement from this finally block.(ŸÓ½‚úÿÿÿÿ8æÃÍ¬İ.
+Œ
+java:S4165>"jRemove this useless assignment; "departamento" already holds the assigned value along all execution paths.(«ŠÁšûÿÿÿÿ8²Œÿà.
+R
+java:S1143A"5Remove this return statement from this finally block.(¼™’8›Æ§¬İ.
+z
+java:S1450"XRemove the "sentencia" field and declare it as a local variable in the relevant methods.(âÅ¬Šúÿÿÿÿ8—Ú—¬İ.
+Z	java:S106k"9Replace this use of System.out or System.err by a logger.(ˆ‘•®ıÿÿÿÿ8óò´¬İ.
+R
+java:S1143o"5Remove this return statement from this finally block.(¨æÿ¼8½ÆÃ¬İ.

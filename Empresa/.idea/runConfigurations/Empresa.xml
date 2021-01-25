@@ -1,0 +1,9 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Empresa" type="Application" factoryName="Application">
+    <option name="MAIN_CLASS_NAME" value="vista.Test" />
+    <module name="Empresa" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

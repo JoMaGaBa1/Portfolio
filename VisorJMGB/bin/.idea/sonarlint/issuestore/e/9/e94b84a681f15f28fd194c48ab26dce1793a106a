@@ -1,0 +1,47 @@
+
+}
+java:S1104 "[Make txtNacionalidad a static final constant or non-public and provide accessors if needed.(„ÿÓÈüÿÿÿÿ8¢Ãš”Ù.
+L
+java:S1172É"/Remove this unused method parameter "keyEvent".(şğ´V8ÏòØó×.
+d
+java:S1126N"BReplace this if-then-else statement by a single method invocation.(ú’òşşÿÿÿÿ8ò£†’Ù.
+t
+java:S1104"RMake txtNum a static final constant or non-public and provide accessors if needed.(Ñ¸èşÿÿÿÿ8ÏòØó×.
+O
+java:S1172`"2Remove this unused method parameter "actionEvent".(À–¸‘8ÏòØó×.
+O
+java:S1172["2Remove this unused method parameter "actionEvent".(ùš²±8ÏòØó×.
+O
+java:S1172|"2Remove this unused method parameter "actionEvent".(ÄŒö®8ÏòØó×.
+u
+java:S1104$"SMake btnPrev a static final constant or non-public and provide accessors if needed.(îö–‚úÿÿÿÿ8ÏòØó×.
+y
+java:S1104%"WMake btnCancelar a static final constant or non-public and provide accessors if needed.(Ü”Ú‘ûÿÿÿÿ8ÏòØó×.
+u
+java:S1104#"SMake btnNext a static final constant or non-public and provide accessors if needed.(ê£×úÿÿÿÿ8ÏòØó×.
+U
+java:S1172’"2Remove this unused method parameter "actionEvent".(Ì¸‹®üÿÿÿÿ8ÏòØó×.
+
+java:S1192«"^Define a constant instead of duplicating this literal "-fx-background-color: #FF5959" 6 times.(ÁşÒüÿÿÿÿ8¹¸ªîØ.
+v
+java:S1104!"TMake txtFecha a static final constant or non-public and provide accessors if needed.(‘…Ëèøÿÿÿÿ8ÏòØó×.
+R
+java:S1172±"/Remove this unused method parameter "keyEvent".(¢¨òöúÿÿÿÿ8ÏòØó×.
+r
+java:S1104"UMake lblTitulo a static final constant or non-public and provide accessors if needed.(§Áÿ÷8ÏòØó×.
+q
+java:S1104""TMake txtSaldo a static final constant or non-public and provide accessors if needed.(Ó•™ß8ÏòØó×.
+s
+java:S1104&"VMake btnAceptar a static final constant or non-public and provide accessors if needed.(°‡÷Ó8ÏòØó×.
+q
+java:S1104'"TMake btnNueva a static final constant or non-public and provide accessors if needed.(ÅÑÆˆ8ÏòØó×.
+x
+java:S1104"VMake txtTitular a static final constant or non-public and provide accessors if needed.(£¯¥¤şÿÿÿÿ8ÏòØó×.
+R
+java:S1172¤"/Remove this unused method parameter "keyEvent".(§ï¿Úúÿÿÿÿ8ÏòØó×.
+T
+java:S1172e"2Remove this unused method parameter "actionEvent".(±ú­¸ÿÿÿÿÿ8ÏòØó×.
+R
+java:S1172Ü"/Remove this unused method parameter "keyEvent".(’Ş»¸şÿÿÿÿ8´ÉæíØ.
+M
+java:S1172½"/Remove this unused method parameter "keyEvent".(â¾·œ8ˆÊœ”Ù.

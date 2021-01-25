@@ -1,0 +1,9 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Visor" type="Application" factoryName="Application">
+    <option name="MAIN_CLASS_NAME" value="org.controlador.CuentaBater" />
+    <module name="Visor" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
