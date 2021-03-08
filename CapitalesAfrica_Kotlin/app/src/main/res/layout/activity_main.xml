@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fondo"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imgMapa"
+        android:layout_width="391dp"
+        android:layout_height="233dp"
+        android:layout_marginTop="30dp"
+        android:contentDescription="@string/mapa"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/africa" />
+
+    <TextView
+        android:id="@+id/txtIndica"
+        android:layout_width="391dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="5dp"
+        android:text="@string/indica"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgMapa" />
+
+    <RadioGroup
+        android:id="@+id/grpOpciones"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtIndica">
+
+        <RadioButton
+            android:id="@+id/optUno"
+            android:layout_width="200sp"
+            android:layout_height="wrap_content"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/optDos"
+            android:layout_width="200sp"
+            android:layout_height="wrap_content"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/optTres"
+            android:layout_width="200sp"
+            android:layout_height="wrap_content"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/optCuatro"
+            android:layout_width="200sp"
+            android:layout_height="wrap_content"
+            android:textSize="20sp" />
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/txtPais"
+        android:layout_width="154dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="97dp"
+        android:layout_marginEnd="24dp"
+        android:textAlignment="textEnd"
+        android:textSize="20sp"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toStartOf="@+id/grpOpciones"
+        app:layout_constraintHorizontal_bias="0.484"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtIndica" />
+
+    <TextView
+        android:id="@+id/txtInfo"
+        android:layout_width="391dp"
+        android:layout_height="wrap_content"
+        android:text="@string/empezar"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/btnPrincipal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/grpOpciones" />
+
+    <ImageButton
+        android:id="@+id/btnPrincipal"
+        android:layout_width="86dp"
+        android:layout_height="86dp"
+        android:layout_marginBottom="24dp"
+        android:adjustViewBounds="true"
+        android:background="#00FFFFFF"
+        android:contentDescription="@string/logo"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/boton" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

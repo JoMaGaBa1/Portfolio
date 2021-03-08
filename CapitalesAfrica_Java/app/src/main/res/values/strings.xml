@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">África Java</string>
+    <string name="indica">INDICA SU CAPITAL</string>
+    <string name="empezar">Pulse para empezar</string>
+    <string name="otro">Mostrar otro País</string>
+    <string name="fin">Fin del juego</string>
+    <string name="mapa">Mapa de la UE</string>
+    <string name="logo">Logo de la UE</string>
+    <string name="marcarObligatorio">Debes marcar una opción</string>
+    <string name="jugar">JUGAR</string>
+    <string name="salir">SALIR</string>
+    <string name="inicio">VOLVER A INICIO</string>
+</resources>
