@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layoutIncidencias"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".ui.main.ActivityComentarios">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/g1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.05" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/g2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.95" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/g4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.03" />
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="500dp"
+        android:layout_height="4dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/gradient"
+        app:layout_constraintEnd_toStartOf="@+id/g2"
+        app:layout_constraintHorizontal_bias="0.416"
+        app:layout_constraintStart_toStartOf="@+id/g1"
+        app:layout_constraintTop_toBottomOf="@+id/comentario" />
+
+    <TextView
+        android:id="@+id/nombreUsuario"
+        android:layout_width="156dp"
+        android:layout_height="26dp"
+        android:layout_marginTop="8dp"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toStartOf="@+id/g2"
+        app:layout_constraintHorizontal_bias="0.065"
+        app:layout_constraintStart_toStartOf="@+id/g1"
+        app:layout_constraintTop_toTopOf="@+id/g4" />
+
+    <TextView
+        android:id="@+id/fechaHoraComentario"
+        android:layout_width="170dp"
+        android:layout_height="26dp"
+        android:layout_marginTop="8dp"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toStartOf="@+id/g2"
+        app:layout_constraintHorizontal_bias="0.111"
+        app:layout_constraintStart_toEndOf="@+id/nombreUsuario"
+        app:layout_constraintTop_toTopOf="@+id/g4" />
+
+    <TextView
+        android:id="@+id/comentario"
+        android:layout_width="338dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toStartOf="@+id/g2"
+        app:layout_constraintHorizontal_bias="0.437"
+        app:layout_constraintStart_toStartOf="@+id/g1"
+        app:layout_constraintTop_toTopOf="@+id/g4" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
